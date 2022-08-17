@@ -1,0 +1,65 @@
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="calculator.js"></script>
+
+<head>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<header class="header center"><img data-image="" class="ybs-logo" src="YBS Logo - Non Transparent.jpg" style="height: auto;"></header>
+
+<div class="container">
+
+<button id="mortgageCalc">Mortgage Calculator</button>
+
+</div>
+
+<div id="myModal" class="modal">
+
+  <div class="modal-content">
+    <span class="close">&times;</span>
+
+
+
+<div class="container">
+<p>Your total monthly payment</p>
+
+<div>
+<input name="repayments" value="£0.00"/>
+</div>
+
+</div>
+
+<div class="container">
+<div>
+<label for="property_value">Property Value:</label>
+<input name="property_value" min="0" pattern="^\d*(\.\d{0,2})?$" />
+</div>
+<div>
+<label for="deposit">Deposit:</label>
+<input name="deposit" min="0" pattern="^\d*(\.\d{0,2})?$" />
+</div>
+<div>
+<label for="interest_rate">Interest Rate:</label>
+<input name="interest_rate" min="0" max="100" pattern="^\d*(\.\d{0,2})?$" />
+</div>
+<div>
+<label for="mortgage_term">Mortgage Term:</label>
+<input name="mortgage_term" type="number" min="0" max="45" />
+</div>
+</div>
+
+<div class="container">
+
+<div>
+<label for="loan">Loan:</label>
+<input name="loan" min="0" pattern="^\d*(\.\d{0,2})?$" />
+</div>
+
+</div>
+
+ </div>
+
+</div>
+
+</body>
