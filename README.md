@@ -1,2 +1,2 @@
 # ybs-mortgage-calculator
-Anything
+Open mortgageCalc.html to view the project.
