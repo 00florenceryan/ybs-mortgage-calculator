@@ -1,65 +1,89 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="calculator.js"></script>
-
 <head>
   <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-<header class="header center"><img data-image="" class="ybs-logo" src="YBS Logo - Non Transparent.jpg" style="height: auto;"></header>
-
-<div class="container">
-
-<button id="mortgageCalc">Mortgage Calculator</button>
-
-</div>
-
-<div id="myModal" class="modal">
-
-  <div class="modal-content">
-    <span class="close">&times;</span>
-
-
-
-<div class="container">
-<p>Your total monthly payment</p>
-
-<div>
-<input name="repayments" value="£0.00"/>
-</div>
-
-</div>
-
-<div class="container">
-<div>
-<label for="property_value">Property Value:</label>
-<input name="property_value" min="0" pattern="^\d*(\.\d{0,2})?$" />
-</div>
-<div>
-<label for="deposit">Deposit:</label>
-<input name="deposit" min="0" pattern="^\d*(\.\d{0,2})?$" />
-</div>
-<div>
-<label for="interest_rate">Interest Rate:</label>
-<input name="interest_rate" min="0" max="100" pattern="^\d*(\.\d{0,2})?$" />
-</div>
-<div>
-<label for="mortgage_term">Mortgage Term:</label>
-<input name="mortgage_term" type="number" min="0" max="45" />
-</div>
-</div>
-
-<div class="container">
-
-<div>
-<label for="loan">Loan:</label>
-<input name="loan" min="0" pattern="^\d*(\.\d{0,2})?$" />
-</div>
-
-</div>
-
- </div>
-
-</div>
-
+  <header class="header center">
+    <img class="ybs-logo center" src="images/YBS Logo - Non Transparent.jpg">
+  </header>
+  <div id="bannerimage" class="center">
+    <img src="images/couple-on-sofa.jpg">
+    <div class="top-left">
+      <h1>MOVING HOME?</h1>
+      <h2>Calculate your mortgage today!</h2>
+    </div>
+  </div>
+  <div class="container">
+    <div>
+      <div id="mortgageCalc" class="tool-box">
+        <div class="circle center">
+          <img src="images/money-large.png">
+        </div>
+        <div class="tool">
+          <div>
+            <h4>Mortgage Calculator</h4>
+            <p>How much will your monthly repayments cost? Our mortgage rate calculator can give you a quick estimate of how much youâ€™ll owe each month.</p>
+          </div>
+        </div>
+      </div>
+      <div class="tool-box">
+        <div class="circle center">
+          <img src="images/calculator-icon.png">
+        </div>
+        <div class="tool">
+          <div>
+            <h4>Borrowing calculator</h4>
+            <p>Looking to climb the property ladder or remortgage? Try our quick borrowing calculator and find out how much we may be able to lend you.</p>
+          </div>
+        </div>
+      </div>
+      <div class="tool-box">
+        <div class="circle center">
+          <img src="images/money-large.png">
+        </div>
+        <div class="tool">
+          <div>
+            <h4>Deposit calculator</h4>
+            <p>Whether you're ready to start saving for your mortgage deposit or already on your way, our deposit calculator can help you work out how much you need to save and how long it might take.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="myModal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <div class="container">
+        <p>Your total monthly payment</p>
+        <div>
+          <input name="repayments" value="&pound;0.00" />
+        </div>
+      </div>
+      <div class="container">
+        <div>
+          <label for="property_value">Property Value:</label>
+          <input name="property_value" min="0" pattern="^\d*(\.\d{0,2})?$" />
+        </div>
+        <div>
+          <label for="deposit">Deposit:</label>
+          <input name="deposit" min="0" pattern="^\d*(\.\d{0,2})?$" />
+        </div>
+        <div>
+          <label for="interest_rate">Interest Rate:</label>
+          <input name="interest_rate" min="0" max="100" pattern="^\d*(\.\d{0,2})?$" />
+        </div>
+        <div>
+          <label for="mortgage_term">Mortgage Term:</label>
+          <input name="mortgage_term" type="number" min="0" max="45" />
+        </div>
+      </div>
+      <div class="container">
+        <div>
+          <label for="loan">Loan:</label>
+          <input name="loan" min="0" pattern="^\d*(\.\d{0,2})?$" />
+        </div>
+      </div>
+    </div>
+  </div>
 </body>
