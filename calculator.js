@@ -1,8 +1,5 @@
 function monthlyRepayments(interestRate, mortgageTermYears, loan) {
 
-    console.log(interestRate);
-    console.log(mortgageTermYears);
-    console.log(loan);
     return ((interestRate / 100 / 12) / (1 - Math.pow((1 + interestRate / 100 / 12), (-mortgageTermYears * 12))) * loan).toFixed(2);
 
 }
