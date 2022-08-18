@@ -70,6 +70,9 @@ font-size: 30px;
 
 	  padding: 10px;
 	}
+	#bannerimage{
+		width:95%;
+	}
 
 }
     
@@ -82,6 +85,9 @@ font-size: 30px;
 
 	  padding: 10px;
 	}
+	#bannerimage{
+		width:95%;
+	}
 }
     
     
@@ -92,6 +98,9 @@ font-size: 30px;
 	  width: 100%;
 
 	  padding: 10px;
+	}
+	#bannerimage{
+		width:95%;
 	}
 }
 
@@ -104,6 +113,9 @@ font-size: 30px;
 
 	  padding: 10px;
 	}
+	#bannerimage{
+		width:95%;
+	}
 }
 
 
@@ -113,6 +125,9 @@ font-size: 30px;
 	  width: 100%;
 
 	  padding: 10px;
+	}
+	#bannerimage{
+		width:50%;
 	}
 }
     
@@ -124,6 +139,9 @@ font-size: 30px;
 
 	  padding: 10px;
 	}
+	#bannerimage{
+			width:50%;
+	}
 }
 
 #bannerimage{
@@ -133,7 +151,7 @@ font-size: 30px;
 	color: white;
 	TEXT-ALIGN: left;
 	font-size: 25px;
-	width:95%;
+	
 	z-index: -1
 }
 	
@@ -204,6 +222,7 @@ h1{
 img.ybs-logo{
     	width: 30%;
 	margin-top: 20px;
+	margin-bottom: 20px;s
 }
  
  .tool-box{
@@ -248,4 +267,13 @@ img.ybs-logo{
 .tool{
 
 	padding:10px;
+}
+#mortgageCalc{
+	cursor: pointer;
+    color: var(--color-primary);
+    background-color: #fff;
+    box-shadow: 0 2px 0px 0px rgb(0 0 0 / 7%), 0 3px 0 0 rgb(197 197 197 / 50%);
+    border: solid var(--border-width-input) var(--color-border-input);
+    border-radius: var(--border-radius-input);
+    color: #008839;
 }
